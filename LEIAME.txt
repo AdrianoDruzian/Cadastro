@@ -1,0 +1,12 @@
+ADOConnection
+	-ConnectionString > Realizar a conexão com Banco de Dados. ~igual tela de UDL
+
+ADOQuery
+	-Connection > Realizar a conexão com o ADOConnection.
+	-SQL > Clicar no botão '...' e informar o select.
+
+DataSource(DSClientes)
+	-DataSet > Realizar a conexão com ADOQuery
+
+TDBGrid 
+	-DataSource > Realizar conexão com DataSource(DSClientes)
